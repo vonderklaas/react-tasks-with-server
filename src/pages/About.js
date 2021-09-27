@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 export const About = () => {
     return (
         <div>
-            <h3>This is simple Task Manager</h3>
-            <h4>Created along with Brad Traversy tutorial</h4>
+            <h3>Still in progress...</h3>
             <p>
                 <Link to='/'>Go back</Link>
             </p>
