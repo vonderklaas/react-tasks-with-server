@@ -44,18 +44,22 @@ export const AddTask = ({ onAdd }) => {
     
     return (
         <form onSubmit={ onSubmit } className='add-form'>
+            
             <div className='form-control'>
                 <label>Enter your todo</label>
                 <input value={ text } onChange={ (e) => onChangeText(e) } type='text' placeholder='Describe your todo' />
             </div>
+
             <div className='form-control'>
                 <label>How many hours you need for that?</label>
                 <input value={ hours } onChange={ (e) => onChangeDay(e) } type='number' placeholder='Amount of hours' />
             </div>
+
             <div className='form-control form-control-check'>
                 <label>Set Reminder</label>
                 <input value={ reminder } onChange={ (e) => onChangeReminder(e) } type='checkbox' checked={ reminder } />
             </div>
+
             <input className='btn-block' type='submit' value='Add todo'/>
         </form>
     )
