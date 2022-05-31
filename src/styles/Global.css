@@ -11,11 +11,9 @@ body {
 }
 
 .container {
-  max-width: 600px;
-  margin: 45px auto;
+  height: 100vh;
   overflow: auto;
   min-height: 400px;
-  border: 2px solid #eadede;
   border-radius: 20px;
   padding: 30px;
 }
